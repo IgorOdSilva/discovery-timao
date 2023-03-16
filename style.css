@@ -2,10 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
+    --fonte3: 'Bebas Neue', cursive;
+    --fonte4: 
 }
 
 * {
@@ -27,12 +31,17 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 9vw;
+    font-size: 7vw;
 }
 
 header > p {
     padding-bottom: 50px;
-    font-size: 3vw;
+    font-size: 2vw;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
 }
 
 section {
@@ -40,8 +49,10 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 2.0vw;
-    font-family: var(--fonte1);
+    padding-right: 30px;
+    font-size: 1.7vw;
+    font-family: var(--fonte3);
+    margin: auto;
 }
 
 section > p {
@@ -52,6 +63,15 @@ section.normal {
     background-color: white;
     color: black;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.144);
+}
+
+section.titulo {
+    background-color: white;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.144);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.13);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 section.imagem {
@@ -68,13 +88,53 @@ section.imagem > p {
     color: white;
     padding: 10px;
     border-radius: 3px 0px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.37);
+    font-family: 'Comfortaa', cursive;
+    font-variant: normal;
+    font-size: 2vh;
 }
 
+section.imagem > h2, h3 {
+    background-color: rgba(255, 255, 255, 0.37);
+    padding: 4px;
+    color: black;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.37);
+    font-size: 2.5vh;
+}
+
+section#titulo {
+    background-image: url('imagens/torcida.jpg');
+}
 
 section#jogo1 {
-    background-image: url('imagens/jogo1.jpg');
+    background-image: url('imagens/jg1.jpg');
+    background-position: top left;
 }
 
+section#jogo2 {
+    background-image: url('imagens/jg1.jpg');
+    background-position: bottom left;
+}
+
+section#jogo3 {
+    background-image: url('imagens/jogo3.jpg');
+    background-position: top right;
+}
+
+section#jogo4 {
+    background-image: url('imagens/jogo3.jpg');
+    background-position: bottom right;
+}
+
+section#jogo5 {
+    background-image: url('imagens/jogo4.jpg');
+    background-position: left top;
+}
+
+section#jogo6 {
+    background-image: url('imagens/jogo4.jpg');
+    background-position: left bottom;
+}
 
 
 footer {
