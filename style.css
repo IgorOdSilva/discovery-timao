@@ -57,10 +57,13 @@ section {
     padding-right: 30px;
     font-size: 2.5vw;
     font-family: var(--fonte3);
+    max-width: 1000px;
+    min-width: 300px;
 }
 
 section > p {
     padding-bottom: 3em;
+    font-size: 3vh;
 }
 
 section.normal {
@@ -98,14 +101,13 @@ section.imagem > p {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.37);
     font-family: var(--fonte4);
     font-variant: normal;
-    font-size: 3.5vh;
+    font-size: 3vh;
     font-weight: 600;
     line-height: 1.8em;
 }
 
 section.imagem > h2 {
     background-color: rgba(255, 255, 255, 0.37);
-    border-radius: 3px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: black;
@@ -142,12 +144,12 @@ section#jogo2 {
 
 section#jogo3 {
     background-image: url('imagens/jogo3.jpg');
-    background-position: center right;
+    background-position: center left;
 }
 
 section#jogo4 {
     background-image: url('imagens/jogo3.jpg');
-    background-position: center right;
+    background-position: center left;
 }
 
 section#jogo5 {
