@@ -63,14 +63,14 @@ section {
 
 section > p {
     padding-bottom: 3em;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 section.normal {
     background-color: white;
     color: black;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.144);
-    font-size: 6vh;
+    font-size: 5vh;
     padding: 25px;
 }
 
@@ -81,7 +81,7 @@ section.titulo {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.13);
     background-attachment: fixed;
     background-size: cover;
-    font-size: 8vh;
+    font-size: 6vh;
 }
 
 section.imagem {
@@ -101,17 +101,19 @@ section.imagem > p {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.37);
     font-family: var(--fonte4);
     font-variant: normal;
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-weight: 600;
     line-height: 1.8em;
+    text-align: justify;
 }
+
 
 section.imagem > h2 {
     background-color: rgba(255, 255, 255, 0.37);
     padding-top: 20px;
     padding-bottom: 20px;
     color: black;
-    font-size: 8vh;
+    font-size: 5vh;
     text-align: center;
     font-family: var(--fonte3);
 }
@@ -123,7 +125,7 @@ section.imagem > h3 {
     padding-bottom: 20px;
     color: black;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.37);
-    font-size: 6vh;
+    font-size: 3vh;
     text-align: center;
     line-height: 1.4em;
 }
@@ -144,12 +146,12 @@ section#jogo2 {
 
 section#jogo3 {
     background-image: url('imagens/jogo3.jpg');
-    background-position: center left;
+    background-position: left;
 }
 
 section#jogo4 {
     background-image: url('imagens/jogo3.jpg');
-    background-position: center left;
+    background-position: left;
 }
 
 section#jogo5 {
