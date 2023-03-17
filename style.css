@@ -33,11 +33,13 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 11vw;
+    text-align: center;
 }
 
 header > p {
     padding-bottom: 50px;
     font-size: 6vw;
+    text-align: center;
 }
 
 main {
@@ -50,7 +52,7 @@ main {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.4em;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 2.5vw;
@@ -98,7 +100,7 @@ section.imagem > p {
     font-variant: normal;
     font-size: 3.5vh;
     font-weight: 600;
-    line-height: 1.4em;
+    line-height: 1.8em;
 }
 
 section.imagem > h2 {
