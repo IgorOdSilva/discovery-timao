@@ -9,12 +9,13 @@
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Bebas Neue', cursive;
-    --fonte4: 
+    --fonte4: 'Comfortaa', cursive;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 body {
@@ -31,16 +32,17 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 7vw;
+    font-size: 11vw;
 }
 
 header > p {
     padding-bottom: 50px;
-    font-size: 2vw;
+    font-size: 6vw;
 }
 
 main {
     max-width: 1200px;
+    min-width: 500px;
     margin: auto;
 }
 
@@ -52,7 +54,6 @@ section {
     padding-right: 30px;
     font-size: 2.5vw;
     font-family: var(--fonte3);
-    margin: auto;
 }
 
 section > p {
@@ -63,6 +64,8 @@ section.normal {
     background-color: white;
     color: black;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.144);
+    font-size: 6vh;
+    padding: 25px;
 }
 
 section.titulo {
@@ -72,7 +75,7 @@ section.titulo {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.13);
     background-attachment: fixed;
     background-size: cover;
-    font-size: 5vh;
+    font-size: 8vh;
 }
 
 section.imagem {
@@ -88,28 +91,35 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.425);
     color: white;
     padding: 10px;
-    border-radius: 3px 0px;
+    border-radius: 3px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.37);
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte4);
     font-variant: normal;
-    font-size: 2vh;
+    font-size: 3.5vh;
+    font-weight: 600;
 }
 
 section.imagem > h2 {
     background-color: rgba(255, 255, 255, 0.37);
-    padding: 20px;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: black;
-    font-size: 7vh;
+    font-size: 8vh;
     text-align: center;
+    font-family: var(--fonte3);
 }
 
 section.imagem > h3 {
     background-color: rgba(255, 255, 255, 0.37);
-    padding: 4px;
+    border-radius: 3px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     color: black;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.37);
-    font-size: 5vh;
+    font-size: 6vh;
     text-align: center;
+    line-height: 1.4em;
 }
 
 section#titulo {
@@ -138,12 +148,12 @@ section#jogo4 {
 
 section#jogo5 {
     background-image: url('imagens/jogo4.jpg');
-    background-position: top left;
+    background-position: top center;
 }
 
 section#jogo6 {
     background-image: url('imagens/jogo4.jpg');
-    background-position: left bottom;
+    background-position: center bottom;
 }
 
 
