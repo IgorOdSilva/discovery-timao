@@ -41,9 +41,10 @@ header > p {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1000px;
     min-width: 300px;
     margin: auto;
+    border-radius: 5px;
 }
 
 section {
