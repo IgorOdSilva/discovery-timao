@@ -42,7 +42,7 @@ header > p {
 
 main {
     max-width: 1200px;
-    min-width: 500px;
+    min-width: 300px;
     margin: auto;
 }
 
@@ -97,6 +97,7 @@ section.imagem > p {
     font-variant: normal;
     font-size: 3.5vh;
     font-weight: 600;
+    line-height: 1.4em;
 }
 
 section.imagem > h2 {
