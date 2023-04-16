@@ -164,6 +164,26 @@ section#jogo6 {
     background-position: center bottom;
 }
 
+section#jogo7 {
+    background-image: url('imagens/jogo7_8.jpg');
+    background-position: top;
+}
+
+section#jogo8 {
+    background-image: url('imagens/jogo7_8.jpg');
+    background-position: center top;
+}
+
+section#jogo9 {
+    background-image: url('imagens/jogo9.webp');
+    background-position: top;
+}
+
+section#jogo10 {
+    background-image: url('imagens/jogo10.jpg');
+    background-position: ;
+}
+
 
 footer {
     background-color: rgba(211, 211, 211, 0.336);
