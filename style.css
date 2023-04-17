@@ -181,7 +181,17 @@ section#jogo9 {
 
 section#jogo10 {
     background-image: url('imagens/jogo10.jpg');
-    background-position: ;
+    background-position: bottom;
+}
+
+section#jogo11 {
+    background-image: url('imagens/jogo11.jpg');
+    background-position: top;
+}
+
+section#jogo12 {
+    background-image: url('imagens/jogo12.jpg');
+    background-position: center top;
 }
 
 
