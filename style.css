@@ -86,12 +86,16 @@ section > p {
     font-size: 2.5vh;
 }
 
-section > p.highlights > a {
+section.imagem > p.highlights > a {
     text-decoration: none;
     text-align: center;
     color: white;
     font-weight: 400;
     transition: 1s;
+}
+
+section.imagem > p.highlights {
+    text-align: center;
 }
 
 section > p.highlights > a:hover {
